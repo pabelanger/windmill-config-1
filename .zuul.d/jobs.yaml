@@ -31,3 +31,10 @@
     run: tests/playbooks/project-config-github-promote/run.yaml
     required-projects:
       - name: github.com/ansible/project-config
+    files:
+      - github/projects.yaml
+      - requirements.txt
+      - test-requirements.txt
+      - tools/check_projects_yaml_alphabetized.sh
+      - tools/manage-projects.py
+      - tox.ini
