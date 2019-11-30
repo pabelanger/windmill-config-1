@@ -80,6 +80,7 @@ providers:
         config-drive: true
         connection-type: network_cli
       - name: esxi-6.7.0-20190802001-STANDARD
+        python-path: /usr/bin/python3
         config-drive: true
     pools:
       # NOTE(pabelanger): Please contact pabelanger before making changes to
